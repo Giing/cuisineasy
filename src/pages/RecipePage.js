@@ -46,7 +46,7 @@ export default function RecipePage() {
                 </Stack> */}
                 <RecipeList recipes={recipes} />
 
-                <Grid container spacing={3}>
+                {/* <Grid container spacing={3}>
                     <Grid item xs={12} sm={6} md={3}>
                         <AppCurrentVisits
                             title="Current Visits"
@@ -64,7 +64,7 @@ export default function RecipePage() {
                             ]}
                             />
                     </Grid>
-                </Grid>
+                </Grid> */}
             </Container>
         </>
     )

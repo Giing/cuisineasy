@@ -13,6 +13,11 @@ import ScrollToTop from './components/scroll-to-top';
 export default function App() {
   return (
     <HelmetProvider>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      />
+
       <BrowserRouter>
         <ThemeProvider>
           <ScrollToTop />
