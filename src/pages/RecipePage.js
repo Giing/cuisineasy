@@ -8,17 +8,6 @@ import recipes from '../_mock/recipes';
 // components
 import Iconify from '../components/iconify';
 // sections
-import {
-  AppTasks,
-  AppNewsUpdate,
-  AppOrderTimeline,
-  AppCurrentVisits,
-  AppWebsiteVisits,
-  AppTrafficBySite,
-  AppWidgetSummary,
-  AppCurrentSubject,
-  AppConversionRates,
-} from '../sections/@dashboard/app';
 
 
 export default function RecipePage() {
@@ -46,7 +35,7 @@ export default function RecipePage() {
                 </Stack> */}
                 <RecipeList recipes={recipes} />
 
-                <Grid container spacing={3}>
+                {/* <Grid container spacing={3}>
                     <Grid item xs={12} sm={6} md={3}>
                         <AppCurrentVisits
                             title="Current Visits"
@@ -64,7 +53,7 @@ export default function RecipePage() {
                             ]}
                             />
                     </Grid>
-                </Grid>
+                </Grid> */}
             </Container>
         </>
     )
