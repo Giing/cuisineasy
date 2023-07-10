@@ -8,6 +8,7 @@ RecipeList.propTypes = {
 };
 
 export default function RecipeList({recipes, ...other}){
+    const timeout = 1000;
     return (
         <Grid container spacing={3} {...other}>
             {recipes.map((recipe) => (
